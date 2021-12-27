@@ -17,8 +17,6 @@ const minusCallBack = () => {
   if (displayValue != 0) {
     displayValue -= 1;
     display.textContent = displayValue;
-  } else {
-    return;
   }
 };
 
